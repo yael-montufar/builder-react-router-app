@@ -1,5 +1,6 @@
 import { createRequestListener } from "@mjackson/node-fetch-server";
 import express from "express";
+import 'dotenv/config';
 
 const PORT = Number.parseInt(process.env.PORT || "3000");
 
